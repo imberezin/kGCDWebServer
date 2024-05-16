@@ -3,14 +3,14 @@
 import PackageDescription
 
 let package = Package(
-	name: "GCDWebServer",
+	name: "kGCDWebServer",
 	platforms: [
 		.macOS(.v10_15),
-		.iOS(.v13),
+		.iOS(.v14),
 	],
 	products: [
 		.library(
-			name: "GCDWebServer",
+			name: "kGCDWebServer",
 			targets: ["GCDWebServer"]),
 	],
 	dependencies: [
